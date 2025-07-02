@@ -1,0 +1,6 @@
+pandas
+scikit-learn
+joblib
+discord.py
+Sastrawi
+python-dotenv
