@@ -20,7 +20,7 @@ def home():
     return "Bot running.."
 
 def run_flask_app():
-    port = int(os.environ.get('PORT', 2257))
+    port = int(os.environ.get('PORT', 8080))
     app.run(host='0.0.0.0', port=port)
 
 def run_discord_bot():
