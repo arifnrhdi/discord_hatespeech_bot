@@ -22,7 +22,7 @@ async def on_ready():
 async def load_extensions():
     await bot.load_extension('bot.cogs.detection')
 
-async def main():
+async def main_start():
     async with bot:
         await load_extensions()
         await bot.start(BOT_TOKEN)

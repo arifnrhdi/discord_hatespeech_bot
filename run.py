@@ -9,7 +9,7 @@ project_root = os.path.abspath(os.path.dirname(__file__))
 sys.path.insert(0, os.path.join(project_root, 'src'))
 
 # Impor fungsi untuk menjalankan bot dari file main.py
-from src.bot.main import main
+from src.bot.main import main_start
 
 # 1. Inisialisasi Aplikasi Flask
 #    Aplikasi ini hanya untuk merespons health check dari Railway.
@@ -28,7 +28,7 @@ def run_discord_bot():
     print("Starting Discord bot in a background thread...")
     try:
         # Setiap thread butuh event loop asyncio sendiri
-        asyncio.run(main())
+        asyncio.run(main_start())
     except Exception as e:
         print(f"FATAL ERROR in bot thread: {e}")
 
