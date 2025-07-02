@@ -4,3 +4,6 @@ joblib
 discord.py
 Sastrawi
 python-dotenv
+requests
+flask
+gunicorn

@@ -1,6 +1,5 @@
 import discord
 from discord.ext import commands
-import asyncio
 import os
 import sys
 
@@ -27,6 +26,3 @@ async def main():
     async with bot:
         await load_extensions()
         await bot.start(BOT_TOKEN)
-
-if __name__ == "__main__":
-    asyncio.run(main())

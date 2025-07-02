@@ -5,8 +5,8 @@ import io
 
 # GANTI DENGAN LINK YANG ANDA DAPATKAN DARI GITHUB RELEASES
 ASSETS = {
-    "models": "https://github.com/USERNAME/REPO/releases/download/v1.0/models.zip",
-    "data": "https://github.com/USERNAME/REPO/releases/download/v1.0/data.zip"
+    "models": "https://github.com/arifnrhdi/discord_hatespeech_bot/releases/download/v1.0/models.zip",
+    "data": "https://github.com/arifnrhdi/discord_hatespeech_bot/releases/download/v1.0/data.zip"
 }
 
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
